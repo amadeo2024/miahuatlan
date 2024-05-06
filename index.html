@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Página Web</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <!-- Aquí va tu menú de navegación -->
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#fondo">Fondo</a></li>
+                <li><a href="#texto-imagen">Texto e Imagen</a></li>
+                <li><a href="#galeria">Galería</a></li>
+                <li><a href="#ubicacion">Ubicación</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="inicio">
+            <!-- Contenido de la sección de inicio -->
+        </section>
+
+        <section id="fondo">
+            <!-- Contenido de la sección de fondo -->
+        </section>
+
+        <section id="texto-imagen">
+            <!-- Contenido de la sección de texto e imagen -->
+        </section>
+
+        <section id="galeria">
+            <!-- Contenido de la sección de galería -->
+        </section>
+
+<section id="ubicacion" class="seccion">
+    <div class="contenido">
+        <h2>Encuéntranos</h2>
+        <div class="mapa">
+          <div class="mapa">
+            <!-- Aquí se insertará el mapa -->
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12664.054748673054!2dLONGITUD!3dLATITUD!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTPCsDM3JzA5LjgiUyA3NcKwMTInMTkuMCJX!5e0!3m2!1ses!2ses!4v1615343646247!5m2!1ses!2ses" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+        </div>
+        <div class="direccion">
+            <p><strong>Dirección:</strong> Calle Principal #123, Ciudad, País</p>
+            <p><strong>Teléfono:</strong> 123-456-789</p>
+            <p><strong>Correo electrónico:</strong> info@example.com</p>
+        </div>
+    </div>
+</section>
+
+<section id="contacto" class="seccion">
+    <div class="contenido">
+        <h2>Contáctanos</h2>
+        <form action="enviar.php" method="POST">
+            <input type="text" name="nombre" placeholder="Nombre" required>
+            <input type="email" name="email" placeholder="Correo electrónico" required>
+            <textarea name="mensaje" placeholder="Mensaje" required></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
+</section>
+
+    </main>
+
+    <footer>
+        <!-- Contenido del footer -->
+    </footer>
+</body>
+</html>
+
